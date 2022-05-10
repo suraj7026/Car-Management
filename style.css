@@ -1,0 +1,41 @@
+.mystyle{
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    
+}
+a,a:hover{
+    text-decoration: none;
+}
+.disabled{
+    pointer-events: none;
+}
+html, body{
+    margin:0;
+}
+.dark, a:hover.dark{
+    color: white;
+}
+
+.light, a:hover.light{
+    color: black;
+}
+.row {
+    display: flex;
+    width: 100%; 
+    table-layout: fixed;
+    height: 100%;
+     
+    border-spacing: 0px; 
+}
+.column {
+    display: flexbox;
+    float:right;
+    margin:0ch;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 50%;
+    padding-left: ;
+    position:relative;
+    max-height: 100px;
+}
